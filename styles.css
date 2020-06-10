@@ -1,5 +1,6 @@
 button.mini-nav__navigation--button {
   background-color: blueviolet;
+  border: 1px solid purple;
 }
 
 button.mini-nav__navigation--number {
