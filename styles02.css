@@ -1,0 +1,17 @@
+button.mini-nav__navigation--button {
+  background-color: blueviolet;
+  border: 1px solid purple;
+}
+
+button.mini-nav__navigation--number {
+  background-color: chartreuse;
+}
+
+/* Fill in the blanks EDITOR */
+
+.cards-wrapper.stepper {
+  background-color: chartreuse;
+}
+.card-container__dots-wrapper .card-container__dot {
+  background-color: purple;
+}
