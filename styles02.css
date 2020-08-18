@@ -15,3 +15,7 @@ button.mini-nav__navigation--number {
 .card-container__dots-wrapper .card-container__dot {
   background-color: purple;
 }
+
+.mini-nav__navigation-item {
+  border: 2px dashed limegreen;
+}
