@@ -19,3 +19,6 @@ button.mini-nav__navigation--number {
 .mini-nav__navigation-item {
   border: 2px dashed limegreen;
 }
+.mini-nav__navigation-list {
+  background: rgbs(211,0,0. 0.65);
+}
