@@ -22,3 +22,6 @@ button.mini-nav__navigation--number {
 .mini-nav__navigation-list {
   background: rgba(211,0,0. 0.65);
 }
+#container{ 
+ display: none;
+}
