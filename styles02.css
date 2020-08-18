@@ -20,5 +20,5 @@ button.mini-nav__navigation--number {
   border: 2px dashed limegreen;
 }
 .mini-nav__navigation-list {
-  background: rgbs(211,0,0. 0.65);
+  background: rgba(211,0,0. 0.65);
 }
