@@ -5,7 +5,7 @@ button.mini-nav__navigation--button {
   border: 1px solid purple;
 }
 
-button.mini-nav__navigation--number {
+.mini-nav__navigation--number.active {
   background-color: chartreuse;
 }
 /* .mini-nav__navigation--button {background-color: red;} */
