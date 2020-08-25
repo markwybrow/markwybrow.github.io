@@ -6,6 +6,7 @@ button.mini-nav__navigation--button {
 button.mini-nav__navigation--number {
   background-color: chartreuse;
 }
+.mini-nav__navigation--button {background-color: red;}
 
 /* Fill in the blanks EDITOR */
 .ql-container .h3{
