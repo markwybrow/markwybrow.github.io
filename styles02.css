@@ -35,6 +35,6 @@ div h1 span {
 span[data-slate-content="true"] {
  color: green; 
 }
-.stage__element{
+.stage__element, .stage__overlay {
 border: 6px dashed red;
 }
