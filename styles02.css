@@ -28,3 +28,6 @@ button.mini-nav__navigation--number {
 div h1 span {
  color: red; 
 }
+span[data-slate-content="true"] {
+ color: green; 
+}
