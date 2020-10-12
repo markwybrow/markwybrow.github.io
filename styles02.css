@@ -28,6 +28,10 @@ button.mini-nav__navigation--number {
 div h1 span {
  color: red; 
 }
+.spf-rce-element.spf-element-text {
+ background-color: rgba( 0, 0, 0, 0.6); 
+}
+
 span[data-slate-content="true"] {
  color: green; 
 }
