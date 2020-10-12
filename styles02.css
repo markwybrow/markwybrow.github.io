@@ -35,3 +35,6 @@ div h1 span {
 span[data-slate-content="true"] {
  color: green; 
 }
+.stage__element{
+border: 6px dashed red;
+}
