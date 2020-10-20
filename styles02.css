@@ -38,3 +38,413 @@ span[data-slate-content="true"] {
 .stage__element, .stage__overlay {
 border: 6px dashed red;
 }
+
+.evaluate-button {
+  background-color: #d43f11;
+  font-family: "Slate W05 Regular", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 2.2px;
+  line-height: 19px;
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+  box-shadow: none;
+  border-radius: 0;
+  background-clip: padding-box;
+  white-space: normal;
+}
+.evaluate-button:hover,
+.evaluate-button:disabled:hover {
+  background-color: #ee582a;
+  background-clip: padding-box;
+}
+.evaluate-button:focus,
+.evaluate-button:active,
+.evaluate-button.selected {
+  background-color: #d43f11;
+  background-clip: padding-box;
+}
+
+*,
+*::before,
+*::after {
+  font-family: inherit;
+}
+body {
+  font-family: "Slate W05 Regular", sans-serif;
+  line-height: 2.1875em;
+}
+body .stage-container p {
+  font-family: "Slate W05 Regular", sans-serif;
+  line-height: 2.1875em;
+}
+body .stage-container h1 {
+  font-family: "Sabon LT W05 Regular", sans-serif;
+  font-weight: normal;
+  font-size: 3.375em;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-top: 0;
+}
+body .stage-container h2 {
+  font-family: "Sabon LT W05 Regular", sans-serif;
+  font-weight: bold;
+  font-size: 3em;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin: 0;
+}
+body .stage-container h2::before {
+  content: "";
+  position: absolute;
+  background-color: #d43f11;
+  width: calc(200% - 4px);
+  height: 2px;
+  margin: 28px 0 0 calc(-200% - 10px);
+}
+body .stage-container h3 {
+  font-family: "Sabon LT W05 Regular", sans-serif;
+  font-weight: bold;
+  font-size: 2.25em;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  margin-top: 2.4em;
+}
+body .stage-container h3::before {
+  content: "";
+  position: absolute;
+  background-color: #d43f11;
+  width: 1.5em;
+  height: 2px;
+  top: 2.5em;
+}
+body .stage-container h4 {
+  font-family: "Sabon LT W05 Regular", sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  letter-spacing: 0.08rem;
+  margin: 0 0 0.5em 0;
+}
+body .stage-container h5 {
+  font-family: "Slate W05 Regular", sans-serif;
+  font-size: 1.125rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin: 0;
+}
+body .stage-container h6 {
+  font-family: "Slate W05 Regular", sans-serif;
+  font-weight: normal;
+  font-size: 0.875em;
+  letter-spacing: 0.1em;
+  margin-top: 0;
+  opacity: 0.6;
+}
+body .stage-container ol li {
+  margin: 0 0 20px 1em;
+}
+body .stage-container ul {
+  list-style: none;
+}
+body .stage-container ul li {
+  position: relative;
+  margin: 0 0 20px 1em;
+}
+@media (max-width: 900px) {
+  body .stage-container ul li {
+    margin: 0 0 0.5em 1em;
+  }
+}
+@media (max-width: 900px) {
+  body .stage-container ul li p {
+    margin-bottom: 0;
+  }
+}
+body .stage-container ul li::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -20px;
+  top: 16px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #d43f11;
+}
+@media (max-width: 900px) {
+  body .stage-container ul li::before {
+    position: relative;
+    top: 15px;
+  }
+}
+body .stage-container figcaption {
+  font-family: "Slate W05 Regular", sans-serif;
+  font-size: 1em;
+  font-style: normal;
+  padding-top: 2em;
+}
+body .stage-container figcaption h1 {
+  font-family: "Slate W05 Regular", sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 1.4;
+  text-align: left;
+  color: #d43f11;
+  margin: 0;
+  border-top: 2px solid #d43f11;
+  padding-top: 1em;
+}
+body .stage-container figcaption p {
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.4;
+  text-align: left;
+  color: #000;
+  margin: 0;
+  padding: 0 0 5px 0;
+}
+body .stage-container .spf-rce-link,
+body .stage-container .spf-inline-app-opener {
+  font-family: "Slate W05 Regular", sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  color: #d43f11;
+  text-decoration: none;
+  border-radius: 4px 4px 0 0;
+  padding: 2px;
+}
+body .stage-container .spf-rce-link span,
+body .stage-container .spf-inline-app-opener span {
+  text-decoration: none;
+}
+body .stage-container .spf-rce-link:hover,
+body .stage-container .spf-inline-app-opener:hover {
+  background-color: #fdece7;
+  transition: background-color 0.24s ease-in-out;
+  -webkit-transition: background-color 0.24s ease-in-out;
+}
+body .stage-container .spf-inline-internal-link {
+  font-weight: bold;
+  color: #d43f11;
+  border-bottom: 1px solid #d43f11;
+  text-decoration: none;
+  border-radius: 4px 4px 0 0;
+  padding: 2px;
+}
+body .stage-container .spf-inline-internal-link span {
+  text-decoration: none;
+}
+body .stage-container .spf-inline-internal-link:hover {
+  background-color: #fdece7;
+  transition: background-color 0.24s ease-in-out;
+  -webkit-transition: background-color 0.24s ease-in-out;
+}
+body .stage-container .spf-inline-tooltip,
+body .stage-container .spf-rce-tool-tip {
+  border-bottom: 1px dashed #d43f11;
+  font-weight: bold;
+  color: #d43f11;
+  border-radius: 4px 4px 0 0;
+  padding: 2px;
+  cursor: pointer;
+}
+body .stage-container .spf-inline-tooltip:hover,
+body .stage-container .spf-rce-tool-tip:hover {
+  background-color: #fdece7;
+  transition: background-color 0.24s ease-in-out;
+  -webkit-transition: background-color 0.24s ease-in-out;
+}
+body .stage-container .spf-inline-tooltip span,
+body .stage-container .spf-rce-tool-tip span {
+  text-decoration: none;
+}
+body .stage-container .__react_component_tooltip {
+  font-family: "Slate W05 Regular", sans-serif;
+  line-height: 1.5;
+  font-size: 0.875em;
+  background: #d43f11;
+  color: white;
+  opacity: 1;
+  padding: 6px 10px;
+  margin-top: -6px;
+  box-shadow: none;
+}
+body .stage-container .__react_component_tooltip.show {
+  animation: fadeUpIn 0.24s ease-in-out 1;
+}
+body .stage-container .__react_component_tooltip.place-top::after {
+  border-top-color: #d43f11;
+}
+
+.cover {
+  background: url("https://pearsonux.sfo2.digitaloceanspaces.com/Bronte_team/Themes/Test/lutgen-bg.jpg") no-repeat;
+  background-size: cover;
+}
+.cover h1 {
+  font-family: "Sabon LT W05 Regular", sans-serif;
+  font-weight: normal;
+  font-size: 3.375em;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-top: 0;
+}
+.cover h2 {
+  font-family: "Slate W05 Regular", sans-serif;
+  font-weight: bold !important;
+  font-size: 1.2em;
+  line-height: 1.2;
+  letter-spacing: 0.1em;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+.cover h2::before {
+  display: none !important;
+}
+.cover .header h3 {
+  position: fixed;
+  top: 30px;
+  font-family: "Slate W05 Regular", sans-serif;
+  font-size: 0.857em;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.cover .header h3::before {
+  display: none !important;
+}
+.cover .stage .stage__content {
+  margin: auto;
+  padding: 0;
+  width: calc(100% - 100px);
+}
+.cover .stage .stage__overlay {
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.3) 100%);
+  background-color: none;
+}
+@media (min-width: 670px) {
+  #screen-cover .stage .stage__content {
+    margin: auto auto auto 40px;
+    padding: 0;
+  }
+}
+@media (min-width: 1100px) {
+  #screen-cover .stage .stage__content {
+    margin: auto auto auto calc(100px + (200 - 100) * ((100vw - 1280px) / (1700 - 1280)));
+    padding: 0;
+  }
+}
+
+.evaluate-button {
+  background-color: #d43f11;
+  font-family: "Slate W05 Regular", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 2.2px;
+  line-height: 19px;
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+  box-shadow: none;
+  border-radius: 0;
+  background-clip: padding-box;
+  white-space: normal;
+}
+.evaluate-button:hover,
+.evaluate-button:disabled:hover {
+  background-color: #ee582a;
+  background-clip: padding-box;
+}
+.evaluate-button:focus,
+.evaluate-button:active,
+.evaluate-button.selected {
+  background-color: #d43f11;
+  background-clip: padding-box;
+}
+button.evaluate-button {
+  font-family: "Slate W05 Regular", sans-serif;
+  font-weight: bold;
+  font-size: 0.875em;
+  letter-spacing: 1.6px;
+}
+.plugin-External-Resource-Button .button-external-resource {
+  box-shadow: inset 0 0 0 100vh #d43f11;
+}
+.plugin-External-Resource-Button .button-external-resource .button-content {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.plugin-External-Resource-Button .button-external-resource .button-content .button-label {
+  color: white;
+  font-family: "Slate W05 Regular", sans-serif;
+  font-weight: bold;
+  font-size: 0.875em;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+
+.card {
+  border-radius: 0 !important;
+}
+.card-content {
+  font-family: "Slate W05 Regular", sans-serif;
+  font-size: 1em;
+  border-radius: 0 !important;
+}
+.card-content b {
+  font-size: 1.2em;
+}
+.front {
+  color: #d43f11;
+  background: #fff;
+  border: 4px solid #08eebc;
+}
+.back {
+  border-radius: 0 !important;
+  color: #d43f11;
+  background: linear-gradient(to right, #08eebc 0%, #04e0d3 100%);
+}
+@media (max-width: 550px) {
+  .cards-wrapper {
+    padding: 0;
+  }
+  .card-container {
+    padding: 5px;
+    box-sizing: content-box;
+    width: 146px !important;
+    height: 146px !important;
+  }
+  .card-content {
+    font-size: 12px !important;
+  }
+  .card-content b {
+    font-size: 16px;
+  }
+}
+
+
+
+.textinput .textinput__label {
+  font-family: "Slate W05 Regular", sans-serif;
+}
+input[type="text"]:focus {
+  outline: 0;
+  border: 1px solid #d43f11;
+  box-shadow: inset 0 0 0 1px #d43f11;
+}
+textarea:focus {
+  outline: 0;
+  border: 1px solid #d43f11;
+  box-shadow: inset 0 0 0 1px #d43f11;
+}
+.numberinput__input:focus {
+  outline: 0;
+  border: 1px solid #d43f11;
+  box-shadow: inset 0 0 0 1px #d43f11;
+}
+.dropdown__input:focus {
+  box-shadow: inset 0 0 0 2px #d43f11;
+  outline: none;
+}
