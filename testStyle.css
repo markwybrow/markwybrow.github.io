@@ -1,3 +1,5 @@
+
+.cover::after{ font-weight: bold; color: limegreen; content:"ROOT PLUGIN STYLESHEET";}
 .cover {   background: url("https://pearsonux.sfo2.digitaloceanspaces.com/Bronte_team/Themes/Test/lutgen-bg.jpg") no-repeat;   background-size: cover; } 
 .cover h1 {   font-family: "Sabon LT W05 Regular", sans-serif;   font-weight: normal;   font-size: 3.375em;   line-height: 1.2;   letter-spacing: 0.02em;   margin-top: 0;   color: limegreen; } 
 .cover h2 {   font-family: "Slate W05 Regular", sans-serif;   font-weight: bold !important;   font-size: 1.2em;   line-height: 1.2;   letter-spacing: 0.1em;   margin-top: 0;   text-transform: uppercase; } 
