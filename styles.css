@@ -1,4 +1,4 @@
-.cover::before{ font-weight: bold; color:purple; content:"ROOT THEME STYLESHEET"}
+.cover::before{ font-weight: bold; color:purple; content:"ROOT THEME STYLESHEET";}
 
 .cover { border: 6px solid red;  background: url("https://pearsonux.sfo2.digitaloceanspaces.com/Bronte_team/Themes/Test/lutgen-bg.jpg") no-repeat;   background-size: cover; } 
 .cover h1 {   font-family: "Sabon LT W05 Regular", sans-serif;   font-weight: normal;   font-size: 3.375em;   line-height: 1.2;   letter-spacing: 0.02em;   margin-top: 0;   color: limegreen; } 
