@@ -1,3 +1,8 @@
+span[data-slate-content="true"]{background-color: limegreen ;}
+span[data-slate-content="true"]::after {font-weight: bold; color:purple; content:"ROOT THEME STYLESHEET"; background-color: limegreen ;}
+.stage__content {border: 6px solid red;}
+
+
 .cover::before{ font-weight: bold; color:purple; content:"ROOT THEME STYLESHEET";}
 
 .cover { border: 6px solid red;  background: url("https://pearsonux.sfo2.digitaloceanspaces.com/Bronte_team/Themes/Test/lutgen-bg.jpg") no-repeat;   background-size: cover; } 
